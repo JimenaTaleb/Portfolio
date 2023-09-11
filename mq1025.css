@@ -1,0 +1,44 @@
+/* Agrego el segundo breakpoint para wide screen en 1025 (hasta 1440px) */
+
+@media (min-width: 1025px) {
+    .nav__logo{
+        font-size: 1.7rem;
+        padding: 25px 25px;
+      }
+
+      .hero {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 100px;
+        padding-bottom: 5%;
+      }
+
+      .heroprovi{
+        order: 2;
+      }
+
+      .hero__container--img{
+        order: 1;
+      }
+
+      .hero__cta--container{
+        order: 3;
+      }
+
+      .footer__socialmedia i:hover{
+        transform: scale(1.2);
+        color: #9f86c0;
+      }
+
+      .footer__copyright p {
+        font-size: 1.6rem;
+      }
+
+      .footer__copyright--heart {
+        width: 22px;
+      }
+
+}

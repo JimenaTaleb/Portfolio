@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Maria Jimena Taleb" />
+    <meta
+      name="description"
+      content="Portfolio personal de Maria Jimena Taleb"
+    />
+    <meta name="keywords" content="Portfolio, HTML, CSS, Git, GitHub" />
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mq481.css" />
+    <link rel="stylesheet" href="mq769.css" />
+    <link rel="stylesheet" href="mq1025.css" />
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css'>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
+    />
+    <link rel="shortcut icon" href="images/icon-v2.png" type="image/png" />
+    <title>Jimena Taleb</title>
+  </head>
+
+  <body>
+    <nav class="nav__container">
+      <p class="nav__logo">Jime Taleb</p>
+      <input class="checkbox" type="checkbox"/>
+      <i class="nav__icons fi fi-br-menu-burger"></i>
+      <i class="nav__icons fi fi-br-cross"></i>
+
+
+      <ul class="nav__menu">
+        <li><a class="nav__item" href="#about">Quien soy</a></li>
+        <li><a class="nav__item" href="#skills">Conocimientos</a></li>
+        <li><a class="nav__item" href="#projects">Proyectos</a></li>
+        <li><a class="nav__item" href="#contactame">Contacto</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section id="about" class="hero">
+        <div class="hero__title--container">
+          <p class="hero__title--p">¡Hola!</p>
+          <h1 class="hero__title">
+            Soy <span class="title--style">Jimena Taleb</span>
+          </h1>
+          <p class="hero__title--p2">Desarrolladora, nadadora y lectora.</p>
+        </div>
+  
+        <div class="hero__container--img">
+          <img src="images/hover-1.png" alt="foto personal" />
+        
+      </div>
+        <div class="hero__cta--container">
+          <p class="hero__cta--text">¿Trabajamos juntos?</p>
+          <a class="hero__cta" href="#contactame">Contactame</a>
+        </div>
+      </section>
+
+      <section id="skills" class="skills">
+        <div>
+          <h2>Mis <span class="color--9F86C0">conocimientos</span></h2>
+        </div>
+        <div class="skills__container">
+          <div class="card cardhtml">
+            <span></span>
+            <i class="devicon-html5-plain-wordmark"></i>
+          </div>
+          <div class="card cardcss">
+            <span></span>
+            <i class="devicon-css3-plain-wordmark"></i>
+          </div>
+          <div class="card cardgit">
+            <span></span>
+            <i class="devicon-git-plain-wordmark"></i>
+          </div>
+          <div class="card cardgithub">
+            <span></span>
+            <i class="devicon-github-original-wordmark"></i>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="projects">
+        <div class="projects__title">
+          <h2>Mis <span class="color--white">proyectos</span></h2>
+        </div>
+        <div class="projects__container">
+          <div class="project__card">
+            <h3>Web natatorios</h3>
+            <div class="gif__container">
+              <a href="https://github.com/JimenaTaleb/Web-natatorios"
+                ><img src="gif/swiming.gif" alt="Persona nadando"
+              /></a>
+            </div>
+          </div>
+
+          <div class="project__card">
+            <h3>Spider Adventures</h3>
+            <div class="gif__container">
+              <a href="https://github.com/JimenaTaleb/SpiderAdventure"
+                ><img src="gif/spiderman.gif" alt="Soiderman"
+              /></a>
+            </div>
+          </div>
+
+          <div class="project__card">
+            <h3>Rick and Morty Api</h3>
+            <div class="gif__container">
+              <a href="https://github.com/JimenaTaleb/Rick-and-Morty-API/"
+                ><img src="gif/rickandmorty.gif" alt="Rick and Morty"
+              /></a>
+            </div>
+          </div>
+
+          <div class="project__card">
+            <h3>Pikachu</h3>
+            <div class="gif__container">
+              <a href="https://github.com/JimenaTaleb/Efecto-hover/"
+                ><img src="gif/pikachu.gif" alt="Pikachu"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contactame" class="form">
+        <h2 class="form__title">Contacto</h2>
+        <div class="form__container">
+          <div class="campo">
+            <label for="nombre">Nombre: </label>
+            <input id="nombre" type="text" placeholder="Nombre" required />
+          </div>
+          <div class="campo">
+            <label for="apellido">Apellido: </label>
+            <input id="apellido" type="text" placeholder="Apellido" required />
+          </div>
+          <div class="campo">
+            <label for="email">E-mail:</label>
+            <input id="email" type="email" placeholder="Email" />
+          </div>
+
+          <div class="campo">
+            <label for="mensaje">Mensaje:</label>
+            <textarea rows="10" cols="26" placeholder="Escriba aqui"></textarea>
+          </div>
+          <input class="btn" type="submit" value="Enviar" />
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__socialmedia">
+        <a href="https://www.linkedin.com/in/jimenataleb"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+        <a href="https://github.com/JimenaTaleb"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a href="mailto:jime-taleb♦hotmail.com"
+          ><i class="fa-solid fa-paper-plane"></i
+        ></a>
+      </div>
+
+      <div class="footer__copyright">
+        <p>&copy; 2023 - By Jimena Taleb</p>
+        <img
+          src="images/heart-footer.png"
+          alt="corazon"
+          class="footer__copyright--heart"
+        />
+      </div>
+    </footer>
+    <script
+      src="https://kit.fontawesome.com/48ddeb67c9.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
